@@ -82,6 +82,12 @@ a{
     padding-right: 75px;
 }
 
+/* Main */
+main{
+    display: flex;
+    flex-direction: row;
+}
+
 /* left_main */
 #left_part{
     background-color: #782221;
@@ -108,9 +114,87 @@ h3{
     text-align: justify;
 }
 
-li{
+.left{
     padding-left: 20px;
     color: white;
     font-family: Raleway;
+    font-weight: bold;
+}
+
+/* Right_part */
+
+#right_part{
+    margin-left: 40px;
+}
+
+.professionnal_experiences__name_part{
+    height: 30px;
+    width: 770px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    border-left-width: 10px;
+    border-color: #782221;
+    border-left-style: inset;
+}
+
+.professionnal_experiences__name{
+    font-family: Raleway;
+    font-weight: 900;
+    font-size: 1em;
+}
+
+.professionnal_experiences__time{
+    font-family: Raleway;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.professionnal_experiences__list{
+    font-family: Raleway;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.degrees__name_part{
+    height: 30px;
+    width: 770px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    border-left-width: 10px;
+    border-color: #782221;
+    border-left-style: inset;
+}
+
+.degrees__name{
+    font-family: Raleway;
+    font-weight: 900;
+    font-size: 1em;
+}
+
+.degrees__time{
+    font-family: Raleway;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.degrees__school{
+    font-family: Raleway;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.skills__name_part{
+    height: 30px;
+    width: 770px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    border-left-width: 10px;
+    border-color: #782221;
+    border-left-style: inset;
+}
+
+.skills__list{
+    font-family: Raleway;
+    font-size: 1em;
     font-weight: bold;
 }
