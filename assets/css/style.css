@@ -85,6 +85,9 @@
 main{
     display: flex;
     flex-direction: row;
+    border-right-width: 3px;
+    border-color: #782221;
+    border-right-style: inset;
 }
 
 /* left_main */
@@ -128,7 +131,7 @@ h3{
 
 .professionnal_experiences__name_part{
     height: 30px;
-    width: 770px;
+    width: 740px;
     padding-top: 10px;
     margin-bottom: 20px;
     border-left-width: 10px;
@@ -156,7 +159,7 @@ h3{
 
 .degrees__name_part{
     height: 30px;
-    width: 770px;
+    width: 740px;
     padding-top: 10px;
     margin-bottom: 20px;
     border-left-width: 10px;
@@ -184,7 +187,7 @@ h3{
 
 .skills__name_part{
     height: 30px;
-    width: 770px;
+    width: 740px;
     padding-top: 10px;
     margin-bottom: 20px;
     border-left-width: 10px;
@@ -195,5 +198,46 @@ h3{
 .skills__list{
     font-family: Raleway;
     font-size: 1em;
+    font-weight: bold;
+}
+
+/* footer */
+
+.footer{
+    background-color: #782221;
+}
+
+.footer__logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.footer__logo__img{
+    width: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+
+.footer__logo__img_github{
+    width: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    filter: invert(1);
+}
+
+.footer__last_update{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.footer__last_update__text{
+    color: white;
+    font-family: Raleway;
     font-weight: bold;
 }
