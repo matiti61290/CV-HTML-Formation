@@ -1,15 +1,16 @@
 /* Import font */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
 
-@font-face {
-    font-family: "Raleway";
-    src: url(./css/fonts/Raleway-Italic-VariableFont_wght.ttf) format('truetype');
-    src: url(./fonts/Raleway-Italic-VariableFont_wght.otf) format('opentype');
-    src: url(./css/fonts/Raleway-Italic-VariableFont_wght.woff);
-    src: url(./fonts/Raleway-VariableFont_wght.ttf) format('truetype');
-    src: url(./fonts/Raleway-VariableFont_wght.otf) format('opentype');
-    src: url(./fonts/Raleway-VariableFont_wght.woff);
+@font-face{
+    font-family: 'Raleway';
+    src: url(./fonts/Raleway-Bold.ttf) format('truetype');
+    src: url(./fonts/Raleway-Bold.woff);
+    src: url(./fonts/Raleway-Italic.ttf) format('truetype');
+    src: url(./fonts/Raleway-Italic.woff);
+    src: url(./fonts/Raleway-Regular.ttf) format('truetype');
+    src: url(./fonts/Raleway-Regular.woff);
 }
+
 
 .body{
     width: 1160px;
@@ -77,7 +78,6 @@
 
 .header_bottom__adress__p_header{
     font-family: Raleway;
-    font-weight: bold;
     font-size: 1em;
     margin-left: 40px;
     margin-right: 40px;
@@ -85,7 +85,6 @@
 
 .header_bottom__adress__p_header_mail{
     font-family: Raleway;
-    font-weight: bold;
     padding-right: 75px;
 }
 
@@ -107,9 +106,10 @@ main{
     flex-wrap: wrap;
 }
 
-h3{
+.left_part__title{
     background-color: #dbc2a4;
     width: 240px;
+    height: 40px;
     padding-left: 20px;
     padding-top: 15px;
     font-family: Lato ;
@@ -120,7 +120,8 @@ h3{
     padding-left: 20px;
     color: white;
     font-family: Raleway;
-    font-weight: bold;
+
+    font-size: 0.9em;
     text-indent: 30px;
     text-align: justify;
 }
@@ -128,7 +129,7 @@ h3{
 .left_part__list{
     color: white;
     font-family: Raleway;
-    font-weight: bold;
+    font-size: 0.9em;
 }
 
 /* Right_part */
@@ -139,12 +140,15 @@ h3{
 
 /* professionnal experiences */
 .professionnal_experiences__title{
+    background-color: #dbc2a4;
+    padding-left: 20px;
+    font-family: Lato ;
     height: 30px;
     width: 740px;
     padding-top: 10px;
     margin-bottom: 20px;
     border-left-width: 10px;
-    border-color: #782221;
+    border-left-color: #782221 ;
     border-left-style: inset;
 }
 
@@ -157,50 +161,49 @@ h3{
 
 .professionnal_experiences__part__name{
     font-family: Raleway;
-    font-weight: 900;
+    font-weight: bold;
     font-size: 1em;
 }
 
 .professionnal_experiences__part__time{
     font-family: Raleway;
     font-size: 1em;
-    font-weight: bold;
 }
 
 .professionnal_experiences__part__list{
     font-family: Raleway;
     font-size: 1em;
-    font-weight: bold;
 }
 
 /* degrees */
 .degrees__title{
+    background-color: #dbc2a4;
+    padding-left: 20px;
+    font-family: Lato ;
     height: 30px;
     width: 740px;
     padding-top: 10px;
     margin-bottom: 20px;
     border-left-width: 10px;
-    border-color: #782221;
+    border-left-color: #782221;
     border-left-style: inset;
 }
 
 /* Master degree */
 .degrees__part__master__name{
     font-family: Raleway;
-    font-weight: 900;
+    font-weight: bold;
     font-size: 1em;
 }
 
 .degrees__part__master__time{
     font-family: Raleway;
     font-size: 1em;
-    font-weight: bold;
 }
 
 .degrees__part__master__school{
     font-family: Raleway;
     font-size: 1em;
-    font-weight: bold;
 }
 
 .degrees__part__master:hover{
@@ -212,20 +215,18 @@ h3{
 /* Bachelor degree */
 .degrees__part__bachelor__name{
     font-family: Raleway;
-    font-weight: 900;
+    font-weight: bold;
     font-size: 1em;
 }
 
 .degrees__part__bachelor__time{
     font-family: Raleway;
     font-size: 1em;
-    font-weight: bold;
 }
 
 .degrees__part__bachelor__school{
     font-family: Raleway;
     font-size: 1em;
-    font-weight: bold;
 }
 
 .degrees__part__bachelor:hover{
@@ -236,19 +237,21 @@ h3{
 
 /* skills */
 .skills__name_part{
+    background-color: #dbc2a4;
+    padding-left: 20px;
+    font-family: Lato ;
     height: 30px;
     width: 740px;
     padding-top: 10px;
     margin-bottom: 20px;
     border-left-width: 10px;
-    border-color: #782221;
+    border-left-color: #782221;
     border-left-style: inset;
 }
 
 .skills__list{
     font-family: Raleway;
     font-size: 1em;
-    font-weight: bold;
 }
 
 .skills__list:hover{
@@ -303,5 +306,5 @@ h3{
 .footer__last_update__text{
     color: white;
     font-family: Raleway;
-    font-weight: bold;
+    font-size: 1em;
 }
