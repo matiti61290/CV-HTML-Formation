@@ -38,6 +38,10 @@
     box-shadow: 0px 0 20px black;
 }
 
+.header_top__figure__img:hover{
+    cursor: zoom-in;
+}
+
 .header_top__name{
     font-family: Lato;
     color: white;
@@ -67,10 +71,14 @@
     text-decoration: none;
 }
 
+.header_bottom_adress_link:hover{
+    text-decoration: underline;
+}
+
 .header_bottom__adress__p_header{
     font-family: Raleway;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 1em;
     margin-left: 40px;
     margin-right: 40px;
 }
@@ -129,7 +137,8 @@ h3{
     margin-left: 40px;
 }
 
-.professionnal_experiences__name_part{
+/* professionnal experiences */
+.professionnal_experiences__title{
     height: 30px;
     width: 740px;
     padding-top: 10px;
@@ -139,25 +148,33 @@ h3{
     border-left-style: inset;
 }
 
-.professionnal_experiences__name{
+.professionnal_experiences__part:hover{
+    border-right-style: inset;
+    border-right-width: 10px;
+    border-right-color: #2c1d27;
+}
+
+
+.professionnal_experiences__part__name{
     font-family: Raleway;
     font-weight: 900;
     font-size: 1em;
 }
 
-.professionnal_experiences__time{
+.professionnal_experiences__part__time{
     font-family: Raleway;
     font-size: 1em;
     font-weight: bold;
 }
 
-.professionnal_experiences__list{
+.professionnal_experiences__part__list{
     font-family: Raleway;
     font-size: 1em;
     font-weight: bold;
 }
 
-.degrees__name_part{
+/* degrees */
+.degrees__title{
     height: 30px;
     width: 740px;
     padding-top: 10px;
@@ -167,24 +184,57 @@ h3{
     border-left-style: inset;
 }
 
-.degrees__name{
+/* Master degree */
+.degrees__part__master__name{
     font-family: Raleway;
     font-weight: 900;
     font-size: 1em;
 }
 
-.degrees__time{
+.degrees__part__master__time{
     font-family: Raleway;
     font-size: 1em;
     font-weight: bold;
 }
 
-.degrees__school{
+.degrees__part__master__school{
     font-family: Raleway;
     font-size: 1em;
     font-weight: bold;
 }
 
+.degrees__part__master:hover{
+    border-right-style: inset;
+    border-right-width: 10px;
+    border-right-color: #2c1d27;
+}
+
+/* Bachelor degree */
+.degrees__part__bachelor__name{
+    font-family: Raleway;
+    font-weight: 900;
+    font-size: 1em;
+}
+
+.degrees__part__bachelor__time{
+    font-family: Raleway;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.degrees__part__bachelor__school{
+    font-family: Raleway;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.degrees__part__bachelor:hover{
+    border-right-style: inset;
+    border-right-width: 10px;
+    border-right-color: #2c1d27;
+}
+
+/* skills */
 .skills__name_part{
     height: 30px;
     width: 740px;
@@ -201,32 +251,46 @@ h3{
     font-weight: bold;
 }
 
+.skills__list:hover{
+    border-right-style: inset;
+    border-right-width: 10px;
+    border-right-color: #2c1d27;
+}
+
 /* footer */
 
 .footer{
     background-color: #782221;
 }
 
-.footer__logo{
+.footer__social_media{
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-bottom: 10px;
 }
 
-.footer__logo__img{
+.footer__social_media__img{
     width: 40px;
     padding-left: 10px;
     padding-right: 10px;
     margin-top: 20px;
 }
 
-.footer__logo__img_github{
+.footer__social_media__img:hover{
+    opacity: 0.7;
+}
+
+.footer__social_media__img_github{
     width: 40px;
     padding-left: 10px;
     padding-right: 10px;
     margin-top: 20px;
     filter: invert(1);
+}
+
+.footer__social_media__img_github:hover{
+    opacity: 0.7;
 }
 
 .footer__last_update{

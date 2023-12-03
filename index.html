@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon CV</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" type="image/png" href="./assets/favicon/cv.png">
 </head>
 
 
@@ -13,8 +14,8 @@
     <header>
         <div class="header_top">
             <figure class="header_top__figure">
-                <img class="header_top__figure__img" src="./assets/img/photo.png" alt="Ma photo">
-            </figure>
+                <a href="./assets/img/photo.png"><img class="header_top__figure__img" src="./assets/img/photo.png" alt="Ma photo"></a>
+            </figure> 
             <h1 class="header_top__name"> Mathieu Barbey</h1>
             <h2 class="header_top__job"> Développeur web junior</h2>
         </div>
@@ -49,29 +50,39 @@
 
         <div id="right_part">
             <section id="professionnal_experiences">
-                <h3 class="professionnal_experiences__name_part">Expérience professionnelles</h3>
-                <p class="professionnal_experiences__name">Manutentionnaire saisonnier moisson céréalière chez Natup</p>
-                <p class="professionnal_experiences__time">Eté 2018 à été 2022 </p>
-                <ul class="professionnal_experiences__list">
-                    <li>Échantillonnage et vérification des normes commerciales des céréales</li>
-                    <li>Prendre la responsabilité d’un site lors del’absence du responsable</li>
-                    <li>Gestion de site sur une moisson complète</li>
-                </ul>
-                <p class="professionnal_experiences__name">Animateur en centre de loisir à l'ALSH La Ferté Vidame</p>
-                <p class="professionnal_experiences__time">Eté 2016</p>
-                <ul class="professionnal_experiences__list">
-                    <li>Organiser ou adapter la séance d'animation selon le déroulement de la journée</li>
-                    <li>Concevoir ou participer à l'élaboration de programmes d'animation</li>
-                </ul>
+                <h3 class="professionnal_experiences__title">Expérience professionnelles</h3>
+                <div class="professionnal_experiences__part">
+                    <p class="professionnal_experiences__part__name">Manutentionnaire saisonnier moisson céréalière chez Natup</p>
+                    <p class="professionnal_experiences__part__time">Eté 2018 à été 2022 </p>
+                    <ul class="professionnal_experiences__part__list">
+                        <li>Échantillonnage et vérification des normes commerciales des céréales</li>
+                        <li>Prendre la responsabilité d’un site lors del’absence du responsable</li>
+                        <li>Gestion de site sur une moisson complète</li>
+                    </ul>
+                </div>
+                <div class="professionnal_experiences__part">
+                    <p class="professionnal_experiences__part__name">Animateur en centre de loisir à l'ALSH La Ferté Vidame</p>
+                    <p class="professionnal_experiences__part__time">Eté 2016</p>
+                    <ul class="professionnal_experiences__part__list">
+                        <li>Organiser ou adapter la séance d'animation selon le déroulement de la journée</li>
+                        <li>Concevoir ou participer à l'élaboration de programmes d'animation</li>
+                    </ul>
+                </div>
             </section>
             <section class="degrees">
-                <h3 class="degrees__name_part">Diplômes/formation</h3>
-                <p class="degrees__name">Earth and Planetary Sciences Master's Degree</p>
-                <p class="degrees__time">De septembre 2021 à juin 2023</p>
-                <p class="degrees__school">Nantes Université</p>
-                <p class="degrees__name">Licence de Science de la Terre</p>
-                <p class="degrees__time">De septembre 2018 à juin 2021</p>
-                <p class="degrees__school">Le Mans Université</p>
+                <h3 class="degrees__title">Diplômes/formation</h3>
+                <div class="degrees__part">
+                    <div class="degrees__part__master">
+                        <p class="degrees__part__master__name">Earth and Planetary Sciences Master's Degree</p>
+                        <p class="degrees__part__master__time">De septembre 2021 à juin 2023</p>
+                        <p class="degrees__part__master__school">Nantes Université</p>
+                    </div>
+                    <div class="degrees__part__bachelor">
+                        <p class="degrees__part__bachelor__name">Licence de Science de la Terre</p>
+                        <p class="degrees__part__bachelor__time">De septembre 2018 à juin 2021</p>
+                        <p class="degrees__part__bachelor__school">Le Mans Université</p>
+                    </div>
+                </div>
             </section>
             <section class="skills">
                 <h3 class="skills__name_part">Competences</h3>
@@ -89,10 +100,10 @@
 
 
     <footer class="footer">
-        <div class="footer__logo">
-            <img class="footer__logo__img" src="./assets/favicon/linkedin.png" alt="Logo Linkedin">
-            <img class="footer__logo__img" src="./assets/favicon/twitter.png" alt="Logo Twitter">
-            <img class="footer__logo__img_github" src="./assets/favicon/signe-github.png" alt="Logo Github">
+        <div class="footer__social_media">
+            <a href="https://www.linkedin.com/in/mathieu-barbey-bb0559228/"><img class="footer__social_media__img" src="./assets/favicon/linkedin.png" alt="Logo Linkedin"></a>
+            <a href="https://twitter.com/BarbeyMath67930"><img class="footer__social_media__img" src="./assets/favicon/twitter.png" alt="Logo Twitter"></a>
+            <a href="https://github.com/matiti61290"><img class="footer__social_media__img_github" src="./assets/favicon/signe-github.png" alt="Logo Github"></a>
         </div>
         <div class="footer__last_update">
             <p class="footer__last_update__text">Dernière mise à jour le 2 décembre 2023.</p>
