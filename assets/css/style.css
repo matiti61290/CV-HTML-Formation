@@ -93,7 +93,7 @@ main {
   flex-direction: row;
   border-right-width: 3px;
   border-color: #782221;
-  border-right-style: inset;
+  border-right-style: solid;
 }
 
 /* left_main */
@@ -185,7 +185,7 @@ main {
   margin-bottom: 20px;
   border-left-width: 10px;
   border-left-color: #782221;
-  border-left-style: inset;
+  border-left-style: solid;
 }
 
 /* Master degree */
@@ -206,7 +206,7 @@ main {
 }
 
 .degrees__part__master:hover {
-  border-right-style: inset;
+  border-right-style: solid;
   border-right-width: 10px;
   border-right-color: #2c1d27;
 }
@@ -229,7 +229,7 @@ main {
 }
 
 .degrees__part__bachelor:hover {
-  border-right-style: inset;
+  border-right-style: solid;
   border-right-width: 10px;
   border-right-color: #2c1d27;
 }
@@ -245,7 +245,7 @@ main {
   margin-bottom: 20px;
   border-left-width: 10px;
   border-left-color: #782221;
-  border-left-style: inset;
+  border-left-style: solid;
 }
 
 .skills__list {
@@ -254,7 +254,7 @@ main {
 }
 
 .skills__list:hover {
-  border-right-style: inset;
+  border-right-style: solid;
   border-right-width: 10px;
   border-right-color: #2c1d27;
 }
